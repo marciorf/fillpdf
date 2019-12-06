@@ -81,7 +81,7 @@ func Fill(form Form, formPDFFile, destPDFFile, checkedString, uncheckedString st
 		formPDFFile,
 		"fill_form", fdfFile,
 		"output", outputFile,
-		"flatten",
+		// "flatten",
 	}
 
 	// Run the pdftk utility.

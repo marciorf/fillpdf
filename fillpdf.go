@@ -83,7 +83,6 @@ func Fill(form Form, formPDFFile, destPDFFile, checkedString, uncheckedString st
 		"output", outputFile,
 		// "flatten",
 	}
-	fmt.Println("No flat")
 
 	// Run the pdftk utility.
 	if err := runCommandInPath(tmpDir, "pdftk", args...); err != nil {
